@@ -21,6 +21,7 @@ fun main(){
     val myLetter3: Char = 'D'          // Char
     val myBoolean4: Boolean = true     // Boolean
     val myText5: String = "Hello"      // String
+
     println(myNum1)
     println(myDoubleNum2)
     println(myLetter3)
