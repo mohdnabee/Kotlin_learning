@@ -42,8 +42,8 @@ fun main (){
     println("String Functions")
    // There are many string functions available, for example toUpperCase() and toLowerCase():
     var Text = "Hello World"
-    println(Text.uppercase(getDefault()))
-    println(Text.lowercase(getDefault()))
+    println(Text.uppercase())
+    println(Text.lowercase())
 
 
 
