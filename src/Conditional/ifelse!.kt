@@ -42,4 +42,9 @@ fun main(){
         // Outputs "Good evening."
     }
 
+    val age =  16
+    if (age >= 18){
+        println("Valid for party")
+    }else
+        println("Not valid for party ")
 }
