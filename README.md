@@ -1,25 +1,36 @@
-# 🌟 Kotlin for Beginners
+# 🚀 Kotlin Basics and Projects
 
-Welcome to this Kotlin learning repo! This project is designed to help you get started with **Kotlin programming** from scratch.
-
----
-
-## 📘 Topics Covered
-
-- Variables & Data Types  
-- Loops (for, while)  
-- Conditionals (if, when)  
-- Functions  
-- Classes & Objects  
-- Null Safety  
-- Collections  
-- Basic Android (optional)
+Welcome to this Kotlin repository! This is a beginner-friendly collection of Kotlin programs, concepts, and small projects to help you learn the language step-by-step.
 
 ---
 
-## 🚀 Getting Started
+## 📘 What is Kotlin?
 
-1. Install [IntelliJ IDEA](https://www.jetbrains.com/idea/) or [Android Studio](https://developer.android.com/studio)
-2. Clone the repo:
-```bash
+Kotlin is a modern, concise, and powerful programming language developed by JetBrains. It is fully interoperable with Java and officially supported for Android development.
 
+---
+
+## 📚 Topics Covered
+
+- `var` vs `val`
+- Data Types
+- Functions
+- Loops (`for`, `while`, `do-while`)
+- Conditional Statements
+- Classes & Objects
+- Inheritance
+- Null Safety
+- Collections (`List`, `Map`, `Set`)
+- User Input
+- File Handling
+- Simple Projects
+
+---
+
+## 💡 Sample Code
+
+```kotlin
+fun main() {
+    val name = "Nabeel"
+    println("Hello, $name!")
+}
