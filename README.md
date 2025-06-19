@@ -6,11 +6,16 @@ Welcome to this Kotlin learning repo! This project is designed to help you get s
 
 ## 📘 Topics Covered
 
-- Variables & Data Types  
+- Variables & Data Types & Operators 
 - Loops (for, while)  
+- Range
+- Arrays 
+- Break and continue
 - Conditionals (if, when)  
-- Functions  
+- Functions
 - Classes & Objects  
+- Constructor 
+- Inheritance
 - Null Safety  
 - Collections  
 - Basic Android (optional)
