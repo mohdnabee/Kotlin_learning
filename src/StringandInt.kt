@@ -12,14 +12,15 @@ fun main (){
     var year =  "08/2024"
     var warenety=  3
     var  discount   =  12.0
+    var accesory =  "Comes with slides on hard cover"
     var totaldis=  price * (discount /  100.0)
 
             println("calculator details")
     println("brand: " + brand + " "+ calculator)
     println("edition : "+edition)
     println("functions : "+ function)
-
     println("Display type : "+ display)
+    println("accesory : "+ accesory)
     println("price : "+ price)
     println("Manufactured :" +year)
     println("Warenety :" +warenety + "  years ")
