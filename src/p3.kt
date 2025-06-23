@@ -30,4 +30,14 @@ fun main(){
     val x =  4
     val y = 5
     println("X +y is : "+(x+y))
+
+
+    var a = 10;
+    var b = a++;
+    var c = ++a;
+
+
+    println(a)
+    println(b)
+    println(c)
 }
