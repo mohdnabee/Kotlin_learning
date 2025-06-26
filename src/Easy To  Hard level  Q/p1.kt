@@ -1,5 +1,6 @@
-package `Kotlin Course Program`
+package `Easy To  Hard level  Q`
 
+//  easy level
 class  p1{
      companion object {
           @JvmStatic
