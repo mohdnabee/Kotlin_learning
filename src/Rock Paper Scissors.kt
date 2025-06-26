@@ -24,9 +24,10 @@ fun main(){
 
     val  winner =  when{
         playerChoice ==  computerChoice -> "Tie"
-        playerChoice ==  "Rock" &&  computerChoice == "Scissors" ->"Player"
-        playerChoice == "Paper" && computerChoice == "Rock" -> "Player"
-        playerChoice ==  "Scissors" && computerChoice =="Paper" -> "player"
+
+        playerChoice == "Rock"     &&  computerChoice == "Scissors" ->"Player"
+        playerChoice == "Paper"    &&  computerChoice == "Rock"     -> "Player"
+        playerChoice == "Scissors" &&  computerChoice == "Paper"    -> "player"
         else -> "Computer"
     }
 
