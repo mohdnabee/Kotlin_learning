@@ -1,16 +1,22 @@
 fun main(){
 
 //  call function
-    makeCoffee()
+    makeCoffee(1, "Joy" )
+    makeCoffee(2, "Rock")
+    makeCoffee(3, "brock")
+    makeCoffee(0, "jimmy")
 
 }
 
-fun makeCoffee(){
-
-    println("Buy Beans")
-    println("Grind Beans")
-    println("heat water to  90°C.")
-    println("Add water")
-    println("Push hot water through the grinder beans ")
+fun makeCoffee(sugarCount :Int,  name : String ) {
+    if(sugarCount ==1){
+        println("Coffer with $sugarCount spoons of sugar for $name")
+    }else if(sugarCount ==0){
+        println("Coffer with no sugar for $name")
+    }
+    else{
+        println("Coffer with $sugarCount spoons of  for $name")
+    }
 
 }
+
