@@ -1,5 +1,9 @@
 fun main(){
 
+
+}
+
+fun askCoffeeDetails(){
     println("who is this coffee for?")
     val name =  readln()
     println("how many pieces of sugar do you want ?")
@@ -8,6 +12,7 @@ fun main(){
 //  call function
     makeCoffee(sugarCountInt, name)
 }
+
 
 fun makeCoffee(sugarCount :Int,  name : String ) {
     if(sugarCount ==1){
