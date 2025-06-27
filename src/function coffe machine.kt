@@ -1,11 +1,12 @@
 fun main(){
 
+    println("who is this coffee for?")
+    val name =  readln()
+    println("how many pieces of sugar do you want ?")
+    val sugarCount =  readln()
+    val  sugarCountInt =  sugarCount.toInt()
 //  call function
-    makeCoffee(1, "Joy" )
-    makeCoffee(2, "Rock")
-    makeCoffee(3, "brock")
-    makeCoffee(0, "jimmy")
-
+    makeCoffee(sugarCountInt, name)
 }
 
 fun makeCoffee(sugarCount :Int,  name : String ) {
@@ -17,6 +18,5 @@ fun makeCoffee(sugarCount :Int,  name : String ) {
     else{
         println("Coffer with $sugarCount spoons of  for $name")
     }
-
 }
 
