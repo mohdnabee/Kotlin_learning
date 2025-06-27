@@ -10,7 +10,7 @@ package kotlin_Classes.Constructors
 //    var year = 0
 //}
 //
-//fun main() {
+//fun Games.main() {
 //    val c1 = Car()
 //    c1.brand = "Ford"
 //    c1.model = "Mustang"
