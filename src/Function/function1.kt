@@ -20,7 +20,7 @@ package Function
 //
 //For example, println() is a function. It is used to output/print text to the screen:
 
-//fun main(){
+//fun Games.main(){
 //    println( "hello world")
 //}
 
