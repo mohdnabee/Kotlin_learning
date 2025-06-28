@@ -13,7 +13,7 @@ fun askCoffeeDetails(){
     makeCoffee(sugarCountInt, name)
 }
 
-
+//  define function
 fun makeCoffee(sugarCount :Int,  name : String ) {
     if(sugarCount ==1){
         println("Coffer with $sugarCount spoons of sugar for $name")
