@@ -7,9 +7,15 @@ fun main(){
     val  num2Str =  readln()
     val num2Int =  num2Str.toInt()
 
-    val  myResult = add (num1Int,num2Int)
+    //val  myResult = add (num1Int,num2Int)
+    val  myResult = divide (num1Int,num2Int)
     println("The result is  $myResult")
 
+}
+
+fun divide (num1: Int , num2: Int): Double{
+    val  result =  num1 / num2.toDouble()
+    return  result
 }
 
 fun add (num1 :Int ,  num2 :Int):Int{
