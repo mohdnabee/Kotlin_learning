@@ -1,16 +1,21 @@
 
+data class  CoffeeDetails(
+    val sugarCount: Int ,
+    val name : String ,
+    val size: String,
+    val  creamAmount :Int
 
+){
 
-
-
+}
 
 
 fun main(){
 
-
+    val  coffeeForNabeel = CoffeeDetails(0, "nabeel","xxl",0)
+    makeCoffee(coffeeForNabeel)
 
 }
-
 
 
 fun askCoffeeDetails(){
@@ -20,18 +25,18 @@ fun askCoffeeDetails(){
     val sugarCount =  readln()
     val  sugarCountInt =  sugarCount.toInt()
 //  call function
-    makeCoffee(sugarCountInt, name)
+   // makeCoffee(sugarCountInt, name)
 }
 
 //  define function
-fun makeCoffee(sugarCount :Int,  name : String ) {
-    if(sugarCount ==1){
-        println("Coffer with $sugarCount spoons of sugar for $name")
-    }else if(sugarCount ==0){
-        println("Coffer with no sugar for $name")
+fun makeCoffee(cofeeDetails: CoffeeDetails ) {
+    if(cofeeDetails.sugarCount ==1){
+        println("Coffer with ${cofeeDetails.sugarCount} spoons of sugar for ${cofeeDetails.name}  and cream: ${cofeeDetails.creamAmount}")
+    }else if(cofeeDetails.sugarCount ==0){
+        println("Coffer with no sugar for ${cofeeDetails.name} and cream: ${cofeeDetails.creamAmount}")
     }
     else{
-        println("Coffer with $sugarCount spoons of  for $name")
+        println("Coffer with ${cofeeDetails.sugarCount} spoons of  for ${cofeeDetails.name} and cream: ${cofeeDetails.creamAmount}")
     }
 }
 
