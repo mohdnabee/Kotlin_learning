@@ -31,6 +31,7 @@ fun main (){
     shoppingList[3] ="Graphics Card RX 7800XT"
     println(shoppingList)
 
+
     shoppingList.set(1,"Water Cooling") //  replace item
     println(shoppingList)
 
