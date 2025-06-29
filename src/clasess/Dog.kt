@@ -1,6 +1,6 @@
 package clasess
 
-class Dog( val name : String , val  breed : String) {
+class Dog( var name : String , var breed : String,  var  age :Int =0) {
 
     init {
         bark(name)
