@@ -24,7 +24,17 @@ fun main (){
     shoppingList.removeAt(1)
     println(shoppingList)
     shoppingList.add(2,"RAM")
+    println(shoppingList[2])
     println(shoppingList)
+    println(shoppingList[3])
+
+    shoppingList[3] ="Graphics Card RX 7800XT"
+    println(shoppingList)
+
+    shoppingList.set(1,"Water Cooling") //  replace item
+    println(shoppingList)
+
+    // [0][1][2][3][4]
 
 
 
