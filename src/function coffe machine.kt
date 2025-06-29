@@ -1,7 +1,17 @@
+
+
+
+
+
+
+
 fun main(){
 
 
+
 }
+
+
 
 fun askCoffeeDetails(){
     println("who is this coffee for?")
@@ -25,3 +35,5 @@ fun makeCoffee(sugarCount :Int,  name : String ) {
     }
 }
 
+//  data classes
+//  data class in kotlin  are classes whose purpose is to hold data.
