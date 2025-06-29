@@ -11,7 +11,7 @@ fun main(){
 
     // comparison operators : ----
     // greater than   >
-    // lower than     <
+    // lower than    <
     // greater equal  >=
     // lower equal    <=
     // equal operators ==
