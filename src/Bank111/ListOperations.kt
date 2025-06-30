@@ -18,4 +18,10 @@ fun main(){
 
     fruitsList.add(3,"Coconut")
     println(fruitsList)
+    fruitsList.add(4,"Guava")
+    fruitsList.add("Cherry")
+    fruitsList.add("Kiwi")
+    fruitsList.add("Grapes")
+
+    println(fruitsList)
 }
