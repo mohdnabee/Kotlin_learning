@@ -9,5 +9,10 @@ fun main (){
         println("$number x $i = ${number*i}")
     }
 
-    println("thanks")
+    println()
+    println("name of $number after Ten ")
+    for (i  in 11..20){
+        println("$number x $i = ${number *i }")
+    }
+
 }
