@@ -9,4 +9,5 @@ fun main (){
         println("$number x $i = ${number*i}")
     }
 
+    println("thanks")
 }
