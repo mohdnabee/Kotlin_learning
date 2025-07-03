@@ -5,7 +5,7 @@ import java.awt.Color
 fun  main  (){
 
 
-val  blueRoseVase =  Vase("Blue","Rose")
+    val  blueRoseVase =  Vase("Blue","Rose")
 
     val  redRoseVase =  blueRoseVase.copy(color = "Red")
     println(blueRoseVase )
