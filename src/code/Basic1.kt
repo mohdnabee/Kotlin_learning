@@ -7,5 +7,6 @@ fun  main (){
     val  doubled =  number.map { it *  2 }//  result  [2 , 4,6}
 
     println(doubled)
+
     // code using key word
 }
