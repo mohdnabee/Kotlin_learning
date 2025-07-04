@@ -1,4 +1,4 @@
 package code.Inhetance
 
-class Secondary { //  child class
+class Secondary : BaseClass(){ //  child class
 }
