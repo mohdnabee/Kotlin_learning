@@ -1,5 +1,9 @@
 package code.Inhetance
 
-class BaseClass {//  parent class
+ open class BaseClass {//  parent class
+
+ fun  coreValues() {
+     println("Core values of house Baseclass")
+ }
 
 }
