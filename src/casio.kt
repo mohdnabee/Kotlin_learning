@@ -38,4 +38,10 @@ fun main (){
     println ("discount :" + discount + "%  =  "+ totaldis )
     println("Total price :" + price+ " - " + totaldis + " = "+  (price - totaldis))
 
+
+
+
+    println()
+    println("Additional  Details")
+
 }
