@@ -2,9 +2,6 @@ fun  main (){
     println("Enter Your Marks ")
     val  marks =  readln().toInt()
 
-
-
-
     when (marks) {
         in 90 ..100 -> {
             println("A")
