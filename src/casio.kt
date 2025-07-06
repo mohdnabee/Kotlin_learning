@@ -43,5 +43,8 @@ fun main (){
 
     println()
     println("Additional  Details")
+    println("Battery : $battery")
+    println("Product ID : $productid")
+    println("Product Number : $productNumber")
 
 }
