@@ -18,7 +18,7 @@ fun main (){
     val productNumber =  "074-111636930"
     val id =  "S-V.P.A.M"
     val  company =  "Casio  computer CO,LTD MADE IN PHILIPPINES"
-    val  coverid =  ">ps< 2-1"
+    val  coverId =  ">ps< 2-1"
 
     //  modes
     val Initialization =  "Shift +  mode(CLR)  +  2(mode) = "
@@ -48,4 +48,5 @@ fun main (){
     println("Product Number : $productNumber")
     println("ID : $id")
     println("Made by : $company")
+    println("cover ID :  $coverId")
 }
