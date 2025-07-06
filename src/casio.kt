@@ -46,5 +46,6 @@ fun main (){
     println("Battery : $battery")
     println("Product ID : $productid")
     println("Product Number : $productNumber")
-
+    println("ID : $id")
+    println("Made by : $company")
 }
