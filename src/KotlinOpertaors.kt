@@ -79,7 +79,6 @@ fun main(){
     println(modOpr)
     println()
 
-
     //  Kotin Kotlin Comparison Operators
     println("Kotlin Comparison Operators")
 
