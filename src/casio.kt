@@ -1,7 +1,6 @@
 fun main (){
     var  calculator = "fx-82MS"
     var brand =  "Casio"
-
     var function =  240
 
     var edition =  "2th edition "
