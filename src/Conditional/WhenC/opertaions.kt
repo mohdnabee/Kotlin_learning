@@ -9,6 +9,14 @@ fun  main(){
     val  num2 =  readln().toInt()
 
     println("Enter The Operators: / , + , -, *")
+    val  oper =  readln().toString()
+
+
+    when(oper){
+
+
+    }
+
 
 
 
