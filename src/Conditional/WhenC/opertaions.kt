@@ -9,18 +9,19 @@ fun  main(){
     val  num2 =  readln().toInt()
 
     println("Enter The Operators: / , + , -, *")
-    val  oper =  readln().toString()
+    val  oper =  readln()
+
+    val  result =  when(oper){
+
+        "/" ->  "divide  of num1 / num2 :  ${num1 / num2}"
+        "+" ->  "addition of num1 +  num2 :  ${num1 + num2}"
+        "-" ->  "subtraction  of num1 - num2 :  ${num1 - num2}"
+        "*" ->  "Multiple of num1 *  num2 :  ${num1 * num2}"
 
 
-    when(oper){
+        else -> {
 
-
+        }
     }
-
-
-
-
-
-
 
 }
