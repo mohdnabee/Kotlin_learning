@@ -21,9 +21,9 @@ fun main (){
     val  coverId =  ">ps< 2-1"
 
     //  modes
-    val Initialization =  "Shift +  mode(CLR)  +  2(mode) "
-    val  InitialixingCalc=  "Shift +  mode(CLR) +3(All) "
-    val contrastSetting =  " Mode +  mode +  mode +mode +  2 (<count>) "
+    val Initialization =   "Shift +  mode(CLR) +  2(mode) "
+    val  InitialixingCalc= "Shift +  mode(CLR) +  3(All) "
+    val contrastSetting =  "Mode  +  mode      +  mode +mode +  2 (<count>) "
 
 
     println("calculator details")
@@ -53,7 +53,7 @@ fun main (){
 
     println()
     println("modes")
-    println("Initialization : $Initialization")
-    println("InitialixingCalc :  $InitialixingCalc")
-    println("contrastSetting : $contrastSetting")
+    println("Initialization :   $Initialization")
+    println("InitialixingCalc : $InitialixingCalc")
+    println("contrastSetting :  $contrastSetting")
 }
