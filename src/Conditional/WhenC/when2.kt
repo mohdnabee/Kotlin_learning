@@ -13,5 +13,6 @@ fun main(){
         7 ->"last number"
         else -> "not valid number"
     }
+
     println(result)
 }
