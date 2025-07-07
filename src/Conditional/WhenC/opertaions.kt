@@ -19,9 +19,9 @@ fun  main(){
         "*" ->  "Multiple of num1 *  num2 :  ${num1 * num2}"
 
 
-        else -> {
+        else ->  "Invalid or Special  Character "
 
-        }
     }
+    println(result)
 
 }
