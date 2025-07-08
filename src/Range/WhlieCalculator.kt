@@ -30,9 +30,13 @@ fun main() {
 
 
         when (operator) {
+
             "+" -> println("Result: $num1 + $num2 = ${num1 + num2}")
+
             "-" -> println("Result: $num1 - $num2 = ${num1 - num2}")
+
             "*" -> println("Result: $num1 * $num2 = ${num1 * num2}")
+
             "/" -> {
                 if (num2 != 0) {
                     println("Result: $num1 / $num2 = ${num1 / num2}")
