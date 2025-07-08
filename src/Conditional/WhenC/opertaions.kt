@@ -13,10 +13,10 @@ fun  main(){
 
     val  result =  when(oper){
 
-        "/" ->  "divide  of num1 / num2 :  ${num1 / num2}"
-        "+" ->  "addition of num1 +  num2 :  ${num1 + num2}"
-        "-" ->  "subtraction  of num1 - num2 :  ${num1 - num2}"
-        "*" ->  "Multiple of num1 *  num2 :  ${num1 * num2}"
+        "/" ->  "divide  of $num1 $oper $num2 :  ${num1 / num2}"
+        "+" ->  "addition of $num1  $oper  $num2 :  ${num1 + num2}"
+        "-" ->  "subtraction  of $num1  $oper $num2 :  ${num1 - num2}"
+        "*" ->  "Product of $num1  $oper $num2 :  ${num1 * num2}"
 
 
         else ->  "Invalid or Special  Character "
