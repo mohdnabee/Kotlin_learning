@@ -13,6 +13,7 @@ fun main() {
             continue
         }
 
+
         print("Enter Number 2: ")
         val input2 = readln().trim()
         if (input2.lowercase() == "exit") break
@@ -21,6 +22,7 @@ fun main() {
             println("Invalid number. Try again.")
             continue
         }
+
 
         print("Enter Operator (+, -, *, /): ")
         val operator = readln().trim().lowercase()
