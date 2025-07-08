@@ -28,6 +28,7 @@ fun main() {
         val operator = readln().trim().lowercase()
         if (operator == "exit") break
 
+
         when (operator) {
             "+" -> println("Result: $num1 + $num2 = ${num1 + num2}")
             "-" -> println("Result: $num1 - $num2 = ${num1 - num2}")
