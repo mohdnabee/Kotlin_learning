@@ -9,6 +9,12 @@ fun main(){
 
     println("Enter The Operators =  + , - ,/,*")
     val  oper =  readln().toString()
-    
+
+
+    while (true){
+        println("Enter The Operator ot (type Exit to exit")
+    }
+
+
 
 }
