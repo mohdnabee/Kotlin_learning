@@ -7,6 +7,8 @@ fun main(){
     println("Enter The Number 2 : ")
     val  num2 = readln().toInt()
 
-
+    println("Enter The Operators =  + , - ,/,*")
+    val  oper =  readln().toString()
+    
 
 }
