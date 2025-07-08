@@ -44,6 +44,7 @@ fun main() {
                     println("Error: Division by zero.")
                 }
             }
+
             else -> println("Invalid operator. Please use +, -, *, or /.")
         }
 
