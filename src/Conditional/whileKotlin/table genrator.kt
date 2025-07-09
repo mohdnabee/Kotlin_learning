@@ -14,6 +14,7 @@ fun  main(){
         }
 
         val  number =  input.toIntOrNull()
+
         if (number ==  null){
             println("Invalid input. Please enter a valid number.")
             continue
