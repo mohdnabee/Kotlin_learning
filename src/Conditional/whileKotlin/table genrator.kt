@@ -8,6 +8,7 @@ fun  main(){
         val input = readln().trim()
 
         if (input.lowercase() ==  "exit"){
+
             println("Thanks for using the table generator!")
             break
         }
