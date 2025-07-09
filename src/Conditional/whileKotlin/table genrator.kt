@@ -3,6 +3,7 @@ package Conditional.whileKotlin
 fun  main(){
 
     while (true){
+
         println("Enter a number to  prints its table (or type 'exit' to quit):")
         val input = readln().trim()
 
