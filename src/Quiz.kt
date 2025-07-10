@@ -47,7 +47,7 @@ fun main() {
 
     println("🎉 Quiz Finished! Your Score: $score / ${questions.size}")
     when (score) {
-        5 -> println("🏆 Excellent!")
+        6 -> println("🏆 Excellent!")
         in 3..4 -> println("👍 Good Job!")
         else -> println("📘 Try Again!")
     }
