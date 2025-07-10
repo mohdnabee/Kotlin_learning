@@ -16,7 +16,9 @@ fun  main (){
         println("EUR: €$eur")
         println("GBP: £$gbp")
         println("JPY: ¥$jpy")
+
     }else{
+
         println("Invalid input. Please enter a positive number.")
     }
 
