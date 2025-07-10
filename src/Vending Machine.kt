@@ -12,9 +12,11 @@ fun main() {
         println("\n=== Kotlin Vending Machine ===")
         println("Balance: ₹$balance")
         println("Available Items:")
+
         for ((index, item) in items.withIndex()) {
             println("${index + 1}. ${item.name} - ₹${item.price} (Stock: ${item.stock})")
         }
+
         println("5. Exit")
         print("Select an item (1-5): ")
 
