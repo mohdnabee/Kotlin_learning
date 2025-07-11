@@ -82,6 +82,7 @@ fun main() {
 
 // 🧾 Receipt Function
 fun printReceipt(type: String, amount: Double, balance: Double) {
+
     val now = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
     println("\n======= Receipt =======")
     println("Transaction Type : $type")
@@ -89,4 +90,5 @@ fun printReceipt(type: String, amount: Double, balance: Double) {
     println("Date & Time      : $now")
     println("Remaining Balance: ₹${"%.2f".format(balance)}")
     println("========================\n")
+
 }
