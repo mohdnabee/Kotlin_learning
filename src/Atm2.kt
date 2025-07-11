@@ -2,8 +2,8 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 fun main() {
+    
     println("ATM")
-
     var balance = 300.0
     var depositCount = 0
     val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
