@@ -10,6 +10,7 @@ fun main() {
     val history = mutableListOf<String>()
 
     while (true) {
+
         println("\n=== Bank of Kotlin ===")
         println("1. Deposit")
         println("2. Withdraw")
