@@ -2,7 +2,7 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 fun main() {
-    
+
     println("ATM")
     var balance = 300.0
     var depositCount = 0
@@ -10,7 +10,6 @@ fun main() {
     val history = mutableListOf<String>()
 
     while (true) {
-
         println("\n=== Bank of Kotlin ===")
         println("1. Deposit")
         println("2. Withdraw")
