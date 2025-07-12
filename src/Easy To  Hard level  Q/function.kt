@@ -9,8 +9,6 @@ fun details(name: String, price: Int, ram: Int, processor: String){
 
 }
 
-
-
 fun  main (){
 
     details(
