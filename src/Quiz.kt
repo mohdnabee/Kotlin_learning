@@ -1,60 +1,64 @@
+package code
+
 fun main() {
     val questions = listOf(
-        Question(
-            "What is the capital of India?",
-            listOf("A. Mumbai", "B. New Delhi", "C. Kolkata", "D. Chennai"),
-            'B'
+        NewQuestion(
+            "Which data type is used to store true or false values in Kotlin?",
+            listOf("Int", "Boolean", "String", "Float"),
+            "Boolean"
         ),
-        Question(
-            "Which language is used for Android app development?",
-            listOf("A. Python", "B. JavaScript", "C. Kotlin", "D. Swift"),
-            'C'
+        NewQuestion(
+            "What does JVM stand for?",
+            listOf("Java Virtual Machine", "Java Variable Mode", "Joint Virtual Manager", "Java Version Manager"),
+            "Java Virtual Machine"
         ),
-        Question(
-            "What is the square root of 144?",
-            listOf("A. 10", "B. 12", "C. 14", "D. 16"),
-            'B'
+        NewQuestion(
+            "Which function is the entry point in a Kotlin program?",
+            listOf("start()", "run()", "main()", "launch()"),
+            "main()"
         ),
-        Question(
-            "Which planet is known as the Red Planet?",
-            listOf("A. Earth", "B. Mars", "C. Jupiter", "D. Venus"),
-            'B'
+        NewQuestion(
+            "Which symbol is used for single-line comments in Kotlin?",
+            listOf("/*", "//", "#", "<!-- -->"),
+            "//"
         ),
-        Question(
-            "Who wrote 'Romeo and Juliet'?",
-            listOf("A. Dickens", "B. Milton", "C. Shakespeare", "D. Orwell"),
-            'C'
+        NewQuestion(
+            "Which keyword is used to declare a variable that cannot be reassigned?",
+            listOf("val", "var", "const", "final"),
+            "val"
         )
-    )
+    ).shuffled()
 
     var score = 0
 
-    println("🎯 Welcome to the Kotlin Quiz App!\n")
-
     for ((index, q) in questions.withIndex()) {
-        println("Q${index + 1}: ${q.question}")
-        q.options.forEach { println(it) }
-        print("Your answer (A/B/C/D): ")
-        val userAnswer = readln().trim().uppercase().firstOrNull()
+        val shuffledOptions = q.options.shuffled()
+        val optionLabels = listOf("A", "B", "C", "D")
 
-        if (userAnswer == q.answer) {
+        println("Question ${index + 1}: ${q.text}")
+        for (i in shuffledOptions.indices) {
+            println("${optionLabels[i]}. ${shuffledOptions[i]}")
+        }
+
+        print("Enter your answer (A/B/C/D): ")
+        val userAnswer = readln().uppercase()
+
+        val selectedOption = optionLabels.indexOf(userAnswer).takeIf { it in shuffledOptions.indices }
+        val chosenAnswer = selectedOption?.let { shuffledOptions[it] }
+
+        if (chosenAnswer == q.correctAnswer) {
             println("✅ Correct!\n")
             score++
         } else {
-            println("❌ Wrong! Correct answer: ${q.answer}\n")
+            println("❌ Wrong! Correct answer: ${q.correctAnswer}\n")
         }
     }
 
-    println("🎉 Quiz Finished! Your Score: $score / ${questions.size}")
-    when (score) {
-        6 -> println("🏆 Excellent!")
-        in 3..4 -> println("👍 Good Job!")
-        else -> println("📘 Try Again!")
-    }
+    println("🎯 Quiz Completed! Your Score: $score / ${questions.size}")
 }
 
-data class Question(
-    val question: String,
+data class NewQuestion(
+    val text: String,
     val options: List<String>,
-    val answer: Char
+    val correctAnswer: String
 )
