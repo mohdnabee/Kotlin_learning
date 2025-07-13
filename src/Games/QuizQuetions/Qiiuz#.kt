@@ -1,4 +1,4 @@
-package code
+package Games.QuizQuetions
 
 fun main() {
     val questions = listOf(
