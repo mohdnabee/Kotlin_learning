@@ -6,4 +6,6 @@ fun  main(){
             println("*".repeat(i))
     }
 
+
+
 }
