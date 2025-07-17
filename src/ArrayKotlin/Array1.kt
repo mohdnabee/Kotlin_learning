@@ -1,4 +1,4 @@
-package KotlinArrays
+package ArrayKotlin
 
 fun main(){
     //  Kotlin Arrays
