@@ -12,3 +12,7 @@ fun  main  (){
 
 
 }
+
+
+
+//  list.indexOf(item)  its show the index value like 0,1,2,34,  etc at  depend your array  size
