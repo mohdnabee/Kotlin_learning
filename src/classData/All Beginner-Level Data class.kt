@@ -24,18 +24,25 @@ fun main() {
         }
     }
 
+
     // 📘 4. Compare two data class objects using ==
     val s1 = StudentData("Amit", 101, 88.5)
     val s2 = StudentData("Amit", 101, 88.5)
 
+
+
     println("\n🔍 Comparing two student objects:")
     println("s1 == s2: ${s1 == s2}")  // true, because data class compares values, not references
+
 
     // 📘 5. Use of copy() function with a Book data class
     data class Book(val title: String, val author: String, val price: Double)
 
+
     val originalBook = Book("Kotlin Mastery", "John Doe", 499.0)
     val discountedBook = originalBook.copy(price = 349.0)
+
+
 
     println("\n📚 Original Book: $originalBook")
     println("💸 Discounted Book: $discountedBook")
