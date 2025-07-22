@@ -12,7 +12,4 @@ fun  main  (){
         count ++
         println("$count "+list)
     }
-
-
-
 }
