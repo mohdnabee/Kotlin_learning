@@ -6,7 +6,6 @@ fun  main (){
     val  name : String= "Nabeel"
     println("Name: $name")
 
-
     // 2. Nullable variable
     var nickName : String? =  null
     println("Nick Name: $nickName")
