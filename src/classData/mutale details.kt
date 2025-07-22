@@ -3,11 +3,16 @@ package classData
 fun  main  (){
 
    val  pc =   mutableListOf("Ram", "SSD", "Graphic card", "MotherBoard", "Headphone","Keyboard","Mouse")
+    var  count =0
 
     println("---------------Buy a Gaming PC----------------------")
 
+    pc.add("Cabinet")
     for (list  in  pc){
-        println(list[0])
+        count ++
+        println("$count "+list)
     }
+
+
 
 }
