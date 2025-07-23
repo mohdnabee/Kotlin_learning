@@ -14,7 +14,6 @@ fun  main (){
             print("  ")
         }
 
-
         // Right start
         for (j in  1..i){
             print("* ")
@@ -22,7 +21,6 @@ fun  main (){
         println()
 
     }
-
 
     //  lower half
 
