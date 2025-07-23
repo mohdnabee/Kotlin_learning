@@ -11,10 +11,12 @@ fun butterfly(n: Int) {
         print("*".repeat(i))
         println()
     }
+
     for (i in n - 1 downTo 1) {
         print("*".repeat(i))
         print(" ".repeat(2*(n - i)))
         print("*".repeat(i))
         println()
     }
+
 }
