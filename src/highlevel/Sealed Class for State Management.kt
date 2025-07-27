@@ -15,9 +15,11 @@ object Loading : Result()
 fun  handleResponse(result: Result){
 
     when(result){
+
         is Success -> println("Data: ${result.data}")
         is Error -> println("Error: ${result.message}")
         Loading -> println("Loading...")
+
     }
 }
 
