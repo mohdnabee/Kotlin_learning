@@ -27,6 +27,7 @@ fun  main(){
     handleResponse(Success("user data loaded"))
 
     handleResponse(Error("Failed to  load data"))
+
     handleResponse(Loading)
 
 }
